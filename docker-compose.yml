@@ -124,7 +124,7 @@ services:
     container_name: syslog-ng
     depends_on:
     - promtail
-    image: balabit/syslog-ng:latest
+    image: linuxserver/syslog-ng:arm64v8-latest
     networks:
       loki: null
     ports:
